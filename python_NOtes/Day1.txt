@@ -1,0 +1,85 @@
+11:6:2025
+basics of python
+
+--variables: in python.
+
+Variable ek naam hota hai jis kai andar hum value ko store karty hai.
+aur Value means : a=10 
+yha a ek variable hai.
+aur value 10 hai.
+
+Memory Adress
+ so a=10 
+in python value ka adress banta hai.
+ex 10 ek value hai to us ka adress bany ga naa ke 'a' ka.
+
+aur agr hum baat kary 'c' ya 'java' waha pai value ka nh variable ka naam adress banta tha.
+ex: a=10
+    b=10 
+in dono conditions mai adress same rahy ga because hum python mai values ka adress banta hai aur yha values
+same he hai..
+
+note :variables ka name number sai hum start nh kar sakty 
+ex: 15a
+note : variable kai name mai space nh hona chaye ex.
+about us
+so hum yha par underscore dai sakty hai
+about_us
+Note : variable hum tab use karty hai jab humy wo bar bar value use karna ho..
+
+
+ --String Concentination.
+2 Strings ko milany kai liye hum + ka symbol use karty hain.
+aur  agr hum ek String lai aur doosra us kai sath number aur agr hum unko add karwae 
+to phr humy error return hoga.  
+
+
+--Arthmetic Operators
+like.. + - *  / %(Modulus) **exponents // Floor Division (it provide integer value)
+
+
+--Comparision operator
+#Comparison operator..
+
+#== , !=, >,<,>= , <=  
+
+
+--Logical operator ...
+means jab humy ek sai zyada condition if agr aa rahi hai to hum logical operator use kary gai.
+means jab hum ek sai zyada agr comparision agr kar rahy hai to hum logical operator use kary gai..
+
+ex: and , or , not  
+b=10
+t=20
+print(b==10 and b<t) 
+
+
+#not
+print(b!=10)
+#but if i will write 
+print(not b!=10)
+
+
+
+
+--Membership operators in python
+it involve (in) or (not in) operator
+in  , ex hum nai koi string li hai hello ab humy check karna hai ki us string mai 'E' name ka character hai ya nh hai ,
+so E waly alhphabet ko search karny k lye yaa to mai loop ko use karu ga aur using loop ek ek latter ko gain karu ga aur us ki condition
+lagao gaa ..like konsa latter E sai match kar rha hai. 
+similary jese ke ek list hai ek aur list mai sai agr koi koi value humy find karni hai to hum in or notin use kar sakty hai hum,
+humy loop use karny ki zaroorat nh hai...lets do practically..
+example..
+#Membership operator
+#ex
+String1="Hello"
+print('H' in String1)
+
+#Similary For notin 
+
+print('h' not in String1)
+
+
+
+
+ 
